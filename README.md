@@ -2,15 +2,64 @@
 
 A new Flutter project.
 
-## Getting Started
+## Running the Project
 
-This project is a starting point for a Flutter application.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Navigate to Project Directory:**
+   ```bash
+   cd your-project
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Install Dependencies:**
+   ```bash
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. **Run the App:**
+   ```bash
+   flutter run
+   ```
+
+## Project Structure
+
+The project is organized into two main files:
+
+- **`lib/main.dart`:**
+  - The main entry point of the application.
+  - Imports the `GreetingWidget` and `IncremWidget` from `widgets.dart`.
+
+- **`lib/widgets.dart`:**
+  - Contains the implementation of the `GreetingWidget` class (StatelessWidget).
+  - Contains the implementation of the `IncremWidget` class (StatefulWidget).
+
+## Key Files
+
+1. **`lib/main.dart`:**
+   - The main entry point of the application.
+   - Imports and uses the `GreetingWidget` and `IncremWidget`.
+
+2. **`lib/widgets.dart`:**
+   - Contains the implementation of the `GreetingWidget` class (StatelessWidget).
+   - Contains the implementation of the `IncremWidget` class (StatefulWidget).
+
+
+## Code Overview
+
+- **GreetingWidget:**
+  - A `StatelessWidget` that displays greeting messages using `Text` widgets.
+
+- **IncremWidget:**
+  - A `StatefulWidget` that displays a counter incremented with a button press.
+
+
+## Student Info
+
+Name: Umidjon Ergashev
+
+ID: 2110105
+
+Group: JSE 05
